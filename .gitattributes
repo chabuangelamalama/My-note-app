@@ -1,0 +1,10 @@
+# Ignore native platform boilerplate from language statistics
+android/**/* linguist-documentation
+ios/**/* linguist-documentation
+linux/**/* linguist-documentation
+macos/**/* linguist-documentation
+windows/**/* linguist-documentation
+web/**/* linguist-documentation
+
+# Explicitly mark .dart files as programming language files
+*.dart linguist-detectable=true
